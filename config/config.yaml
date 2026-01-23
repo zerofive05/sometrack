@@ -28,12 +28,11 @@ app:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
-- id: "xueqiu"
-name: "雪球"
-- id: "zhihu"
-name: "知乎"
-- id: "weibo"
-name: "微博"
+
+  - id: "zhihu"
+  name: "知乎"
+  - id: "weibo"
+  name: "微博"
 
 
 
